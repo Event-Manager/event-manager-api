@@ -13,8 +13,9 @@ development:
   <<: *default
   database: event_manager_dev
   host: localhost
-  username: event
-  password: event12345
+  username:
+  password:
+
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
@@ -22,8 +23,8 @@ test:
   <<: *default
   database: event_manager_test
   host: localhost
-  username: event
-  password: event12345
+  username:
+  password:
 
 production:
   <<: *default
