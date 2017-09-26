@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  date: 2017-09-26 19:21:54
+  participantsNumber: 1
+  responsable: one
+  office: one
+  event_request_status: one
+  event_type: one
+
+two:
+  name: MyString
+  description: MyString
+  date: 2017-09-26 19:21:54
+  participantsNumber: 1
+  responsable: two
+  office: two
+  event_request_status: two
+  event_type: two

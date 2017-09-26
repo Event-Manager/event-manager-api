@@ -9,7 +9,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/log/
+/log/*
 /config/database.yml
 /config/secrets.yml
 
