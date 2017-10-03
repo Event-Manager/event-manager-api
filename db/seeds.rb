@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Office.create(name: 'Belo Horizonte')
+EventType.create(name: 'Meetup')
+EventRequestStatus.create([{name: 'Requested'}, {name: 'Processing'}, {name: 'Approved'}, {name: 'Declined'}])

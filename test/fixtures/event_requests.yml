@@ -4,7 +4,7 @@ one:
   name: MyString
   description: MyString
   date: 2017-09-26 19:21:54
-  participantsNumber: 1
+  participants_number: 1
   responsable: one
   office: one
   event_request_status: one
@@ -14,7 +14,17 @@ two:
   name: MyString
   description: MyString
   date: 2017-09-26 19:21:54
-  participantsNumber: 1
+  participants_number: 1
+  responsable: two
+  office: two
+  event_request_status: two
+  event_type: two
+
+three:
+  name: Penido
+  description: MyString
+  date: 2017-09-26 19:21:54
+  participants_number: 1
   responsable: two
   office: two
   event_request_status: two
