@@ -1,7 +1,6 @@
 require 'test_helper'
 
 class EventsRequestsControllerTest < ActionDispatch::IntegrationTest
-
   test 'creates an event request' do
     event_request_params = {
       name: 'Event name',
@@ -14,7 +13,7 @@ class EventsRequestsControllerTest < ActionDispatch::IntegrationTest
       event_type_id: event_types(:one).id
     }
 
-    post '/events_requests', params: { event_request: event_request_params }
+    post '/api/v0/events_requests', params: { event_request: event_request_params }
 
     events_request = JSON.parse(@response.body)
 
